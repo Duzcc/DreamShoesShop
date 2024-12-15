@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.auth-form-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/auth-form-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    position: absolute;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    padding: 0 48px 16px;
+}
+
+.form {
+    margin-top: 24px;
+    width: 256px;
+}
+
+.form h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 28px 0 22px 0;
+    color: rgb(109, 114, 134);
+}
+
+.form h1.signup-heading {
+    margin-bottom: 16px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group.signup {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 12px;
+    color: #555;
+    font-weight: 500;
+}
+
+.form-group .signup-label {
+    margin-bottom: 6px;
+}
+
+.form-control-wrapper {
+    border-bottom: 1px solid #999;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.form-control-wrapper i {
+    font-size: 12px;
+    margin-right: 4px;
+    color: rgb(109, 114, 134);
+}
+
+.form-control-wrapper i.eye {
+    font-size: 11px;
+}
+
+.form-control-wrapper input {
+    outline: none;
+    border: none;
+    font-size: 13px;
+    color: #888;
+    flex: 1;
+}
+
+.forgot-password {
+    display: block;
+    color: teal;
+    font-size: 13px;
+    text-align: right;
+    margin: -16px 0 20px 0;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 6px;
+    padding: 8px 0;
+    border: none;
+    color: #fff;
+    background-color: rgb(109, 114, 134);
+    cursor: pointer;
+}
+
+.form-container .social-media {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container .social-media.signup {
+    margin-top: 0px;
+}
+
+.form-container .social-media p {
+    font-size: 13px;
+    color: teal;
+}
+
+.form-container .social-media span {
+    margin-top: 16px;
+    color: rgb(109, 114, 134);
+}
+
+.form-container .social-media .icon {
+    margin-top: 16px;
+    display: flex;
+}
+
+.social-media .icon a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
+.social-media .icon a:hover {
+    transform: translateY(-4px);
+}
+
+.social-media .facebook {
+    background-color: rgb(60, 89, 148);
+}
+
+.social-media .twitter {
+    background-color: #4aa0ed;
+    margin: 0 8px;
+}
+
+.social-media .google {
+    background-color: rgb(217, 81, 61);
+}
+
+.form-container .sign-up {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.form-container .sign-up h1 {
+    font-size: 14px;
+    margin: 20px 0 16px 0;
+    font-weight: 400;
+    color: #999;
+}
+
+.form-container .sign-up p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.form-container .sign-up a {
+    color: rgb(109, 114, 134);
+}
+
+#b1 {
+    margin-right: 40px;
+}
+
+#b2 {
+    margin-right: 20px;
+}
+
+#b3 {
+    margin-left: 20px;
+}

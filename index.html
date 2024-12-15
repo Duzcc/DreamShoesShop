@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link href="./https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="section1">
+        <div class="row part-1 part">
+            <nav class="d-flex justify-content-between align-items-center nav_container">
+                <div class="logo">
+                    <h2 data-text="Dream Shoes shop">Dream Shoes shop</h2>
+                </div>
+                <div class='d-flex justify-content-center align-items-center'>
+                    <ul class="navbar_menu">
+                        <li><a href="#section1">Home</a></li>
+                        <li><a href="#section2">Product</a></li>
+                        <li><a href="#section3">Sellers</a></li>
+                        <li><a href="#section4">Contact Us</a></li>
+                        <li><a href="./Login/login.html">Login</a></li>
+                    </ul>
+                    <ul class="navbar_user">
+                        <li id="openSearchBar">
+                            <a onclick="fadeSearchBar()"><i class="fas fa-search grow"></i></a>
+                            <input style="display: none;" type="text" placeholder="Seaching..." focus>
+                            <a onclick="closeSearchBar()" style="display: none;" id="closeSearchBar"><i
+                                    class="fas fa-times"></i></a>
+                        </li>
+                        <li><a><i class="fas fa-user grow"></i></a></li>
+                        <li class="checkout show-my-cart grow">
+                            <a>
+                                <i class="fas fa-shopping-cart grow "></i>
+                                <span id="checkout_items" class="checkout_items">2</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="products">
+
+        </div>
+
+        <div class="row part-2 part">
+            <div class="main_slider_content">
+                <h6 style="color: #069c73;">Spring/Summer 2024 Collection</h6>
+                <h1 style="color:#fff;"><a class="btn-shine" target="_blank">Up to 20% off new arrivals</a> </h1>
+                <div class="red_button"><a href="#section2">Buy now</a></div>
+            </div>
+        </div>
+
+        <div class="row part-3 part">
+            <div class="col-4">
+                <div class="banner_item" style="background-image:url(images/a.jpg)">
+                    <div class="banner_category">
+                        <a href="./html/women.html">Women's</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="banner_item" style="background-image:url(images/b.jpg)">
+                    <div class="banner_category">
+                        <a href="./html/men.html">Men's</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="banner_item" style="background-image:url(images/c.jpg)">
+                    <div class="banner_category">
+                        <a href="./html/unisex.html">Unisex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row part-4 part">
+            <div class="row text-center justify-content-center">
+                <div class="new_arrivals_title" id="section2">
+                    <h2> New arrivals</h2>
+                </div>
+                <div class="col-1 option-part-4">All</div>
+                <div class="col-1 option-part-4">Women</div>
+                <div class="col-1 option-part-4">Men</div>
+                <div class="col-1 option-part-4">Unisex</div>
+            </div>
+        </div>
+
+        <div class="row product-item-wrapper part">
+        </div>
+
+        <div class="best_sellers">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="section_title new_arrivals_title" id="section3">
+                            <h2>Hottest Sellers</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row owl-item Seller">
+        </div>
+
+        <div class="benefit" id="section4">
+            <div class="container">
+                <div class="row benefit_row">
+                    <div class="col-lg-3 benefit_col">
+                        <div class="benefit_item d-flex flex-row align-items-center">
+                            <div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
+                            <div class="benefit_content">
+                                <h6>free shipping</h6>
+                                <p>On orders over $200</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 benefit_col">
+                        <div class="benefit_item d-flex flex-row align-items-center">
+                            <div class="benefit_icon"><i class="fas fa-wallet" aria-hidden="true"></i></div>
+                            <div class="benefit_content">
+                                <h6>cach on delivery</h6>
+                                <p>Earn now with our cashback feature</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 benefit_col">
+                        <div class="benefit_item d-flex flex-row align-items-center">
+                            <div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
+                            <div class="benefit_content">
+                                <h6>31 days return</h6>
+                                <p>Simply return within 31 days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 benefit_col">
+                        <div class="benefit_item d-flex flex-row align-items-center">
+                            <div class="benefit_icon"><i class="far fa-clock" aria-hidden="true"></i></div>
+                            <div class="benefit_content">
+                                <h6>opening all week</h6>
+                                <p>8AM - 09PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div
+                            class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
+                            <h4>News</h4>
+                            <p>Subscribe to our newsletter and get 20% off your first purchase</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="post">
+                            <div
+                                class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
+                                <input id="newsletter_email" type="email" placeholder="Your email" required="required"
+                                    data-error="Valid email is required.">
+                                <button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300"
+                                    value="Submit">subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div
+                        class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+                        <ul class="footer_nav">
+                            <li><a>Blog</a></li>
+                            <li><a>About us</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div
+                        class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+                        <ul>
+                            <li><a><i class="ic2 fab fa-facebook fa-2x icon" aria-hidden="true"></i></a></li>
+                            <li><a><i class="ic1 fab fa-twitter fa-2x icon" aria-hidden="true"></i></a></li>
+
+                            <li><a><i class="ic4  fab fa-linkedin-in icon fa-2x" aria-hidden="true"></i></a>
+
+                            <li><a><i class="ic3 fab fa-google-plus-g fa-2x icon" aria-hidden="true"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <div class="copyright_text">
+                            <p style="text-align: center;">Copyright © 2024 <a>Dream Shoes shop</a>.By TVĐuc</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="show-cart-item">
+            <div class="Header2">
+                <h3 class="Heading">Shopping Cart</h3>
+            </div>
+
+            <div class="cart-item-wrapper"></div>
+
+            <div class="checkout1">
+                <div class="total">
+                    <div>
+                        <div class="Subtotal">Sub-Total</div>
+                        <div class="items">2 items</div>
+                    </div>
+                    <div class="total-amount">$600</div>
+                </div>
+                <button class="button">Checkout</button>
+            </div>
+            <i class="fas fa-times close-my-cart"></i>
+        </div>
+        <div class="black-wrapper"></div>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
