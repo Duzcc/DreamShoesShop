@@ -1,7 +1,7 @@
 const data = [
     {
         name: "Plotum Sneakers, Beige",
-        image: "images/a1.jfif.png",
+        image: "./images/a1.jfif.png",
         tag: "-$20",
         type: "men",
         oldPrice: "$540.00",
@@ -9,7 +9,7 @@ const data = [
     },
     {
         name: "MLB BOSTON",
-        image: "images/a2.jpg",
+        image: "./images/a2.jpg",
         tag: "new",
         type: "woman",
         oldPrice: "$610.00",
@@ -17,7 +17,7 @@ const data = [
     },
     {
         name: "MLB CHUNKY JOGGER NEW YORK YANKEES 'IVORY",
-        image: "images/a5.jpg",
+        image: "./images/a5.jpg",
         tag: "sale",
         type: "woman",
         oldPrice: "$120.00",
@@ -25,7 +25,7 @@ const data = [
     },
     {
         name: "MLB NY VINTAGE",
-        image: "images/a6.jpg",
+        image: "./images/a6.jpg",
         tag: "new",
         type: "woman",
         oldPrice: "$410.00",
@@ -33,7 +33,7 @@ const data = [
     },
     {
         name: "1970S WHITE LOW",
-        image: "images/a3.jpg",
+        image: "./images/a3.jpg",
         tag: "sale",
         type: "men",
         oldPrice: "$180.00",
@@ -41,7 +41,7 @@ const data = [
     },
     {
         name: "1970S BLACK LOW",
-        image: "images/a6.jfif.png",
+        image: "./images/a6.jfif.png",
         tag: "-$20",
         type: "men",
         oldPrice: "$700.00",
@@ -49,7 +49,7 @@ const data = [
     },
     {
         name: "VANS VAULT STYLE 36 - BLUE",
-        image: "images/a4.jpg",
+        image: "./images/a4.jpg",
         tag: "sale",
         type: "woman",
         oldPrice: "$610.00",
@@ -57,7 +57,7 @@ const data = [
     },
     {
         name: "DUNK LOW 'COAST'",
-        image: "images/a8.jpg",
+        image: "./images/a8.jpg",
         tag: "sale",
         type: "woman",
         oldPrice: "$120.00",
@@ -65,7 +65,7 @@ const data = [
     },
     {
         name: "AIR JORDAN 1 RETRO HIGH OG 'SHADOW' 2018",
-        image: "images/a9.jpg",
+        image: "./images/a9.jpg",
         tag: "new",
         type: "men",
         oldPrice: "$410.00",
@@ -73,7 +73,7 @@ const data = [
     },
     {
         name: "STAN SMITH HOLOGRAM",
-        image: "images/a10.jfif.png",
+        image: "./images/a10.jfif.png",
         tag: "new",
         type: "men",
         oldPrice: "$180.00",
@@ -148,7 +148,7 @@ for (let x of data) {
 let seller = [
     {
         name: "CORTEZ LEATHER WHITE RED",
-        image: "images/a11.jpg",
+        image: "./images/a11.jpg",
         tag: "-$20",
         type: "men",
         oldPrice: "$540.00",
@@ -156,7 +156,7 @@ let seller = [
     },
     {
         name: "AIR JORDAN 'LIGHT OREWOOD",
-        image: "images/a12.jpg",
+        image: "./images/a12.jpg",
         tag: "new",
         type: "women",
         oldPrice: "$610.00",
@@ -164,7 +164,7 @@ let seller = [
     },
     {
         name: "1970S BLACK HIGH",
-        image: "images/a13.jfif.png",
+        image: "./images/a13.jfif.png",
         tag: "sale",
         type: "women",
         oldPrice: "$120.00",
@@ -172,7 +172,7 @@ let seller = [
     },
     {
         name: "AIR FORCE 1 LOW BY YOU CUSTOM",
-        image: "images/a14.jpg",
+        image: "./images/a14.jpg",
         tag: "sale",
         type: "women",
         oldPrice: "$410.00",
@@ -180,7 +180,7 @@ let seller = [
     },
     {
         name: "MLB BOSTON",
-        image: "images/a2.jpg",
+        image: "./images/a2.jpg",
         tag: "sale",
         type: "men",
         oldPrice: "$180.00",
@@ -188,7 +188,7 @@ let seller = [
     },
     {
         name: "1970S WHITE LOW",
-        image: "images/a3.jpg",
+        image: "./images/a3.jpg",
         tag: "-$20",
         type: "men",
         oldPrice: "$580.00",
@@ -196,7 +196,7 @@ let seller = [
     },
     {
         name: "VANS VAULT STYLE 36 - BLUE",
-        image: "images/a4.jpg",
+        image: "./images/a4.jpg",
         tag: "new",
         type: "women",
         oldPrice: "$610.00",
@@ -204,7 +204,7 @@ let seller = [
     },
     {
         name: "MLB CHUNKY JOGGER NEW YORK YANKEES 'IVORY",
-        image: "images/a5.jpg",
+        image: "./images/a5.jpg",
         tag: "sale",
         type: "men",
         oldPrice: "$120.00",
@@ -212,7 +212,7 @@ let seller = [
     },
     {
         name: "MLB NY VINTAGE",
-        image: "images/a6.jpg",
+        image: "./images/a6.jpg",
         tag: "sale",
         type: "men",
         oldPrice: "$410.00",
@@ -220,7 +220,7 @@ let seller = [
     },
     {
         name: "M2K TEKNO",
-        image: "images/a7.jpg",
+        image: "./images/a7.jpg",
         tag: "new",
         type: "men",
         oldPrice: "$180.00",
